@@ -1,4 +1,5 @@
-#! C:\Users\93715\Anaconda3\python.exe
+
+#! /home/lz/anaconda3/bin/python3
 # *-* coding:utf8 *-*
 """
 @author: LiuZhe
@@ -83,3 +84,4 @@ if __name__ == '__main__':
         print('中断')
         # if ser is not None:
         # ser.close()
+

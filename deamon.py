@@ -1,4 +1,4 @@
-#! C:\Users\93715\Anaconda3\python.exe
+#! /home/lz/anaconda3/bin/python3
 # *-* coding:utf8 *-*
 """
 @author: LiuZhe
@@ -10,8 +10,15 @@
 """
 
 import daemon
-import test
+import time
+
+
+def test():
+    with open('/home/lz/Documents/PythonProjects/Hardwares/log.txt', "a+") as f:
+        f.write('test\n')
+
 
 with daemon.DaemonContext():
     while True:
-        test.test()
+        test()
+        time.sleep(5)
