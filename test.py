@@ -51,8 +51,8 @@ pin_NO_up_lifting = 16  # NO: pin16
 # 抬升终止位置
 pin_NC_down_lifting = 18  # NC: pin18
 pin_NO_down_lifting = 22  # NO: pin22
+# pins_travel_switch = (7, 11, 13, 15, 12, 16, 18, 22)
 pins_travel_switch = (7, 11, 13, 15, 12, 16, 18, 22)
-
 dr = 'drawer'
 lf = 'lifting'
 # 初始化GPIO的模式
